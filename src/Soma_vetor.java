@@ -23,8 +23,8 @@ public class Soma_vetor {
         System.out.println();
         double soma = 0;
 
-        for (int i = 0; i < numeros.length; i++) {
-            soma += numeros[i];
+        for (double numero : numeros) {
+            soma += numero;
         }
 
         double media = soma / numeros.length;
